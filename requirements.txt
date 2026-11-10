@@ -1,0 +1,6 @@
+numpy>=1.24
+matplotlib>=3.7
+# uniquement pour les tests (comparaison avec les implémentations de référence)
+scikit-learn>=1.3
+pycocotools>=2.0.7
+pytest>=7
