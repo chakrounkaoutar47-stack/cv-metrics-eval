@@ -1,0 +1,99 @@
+{
+  "detections": [
+    {
+      "classe": "voiture",
+      "score": 0.96,
+      "iou": 0.8711478338543993,
+      "gt": "V1",
+      "note": "voiture 1, bien placée"
+    },
+    {
+      "classe": "voiture",
+      "score": 0.91,
+      "iou": 0.6975524475524476,
+      "gt": "V2",
+      "note": "voiture 2, boîte un peu large"
+    },
+    {
+      "classe": "piéton",
+      "score": 0.88,
+      "iou": 0.8273504273504273,
+      "gt": "P1",
+      "note": "piéton 1, bien placé"
+    },
+    {
+      "classe": "piéton",
+      "score": 0.8,
+      "iou": 0.66,
+      "gt": "P3",
+      "note": "piéton 3, boîte correcte"
+    },
+    {
+      "classe": "feu",
+      "score": 0.75,
+      "iou": 0.7827225130890052,
+      "gt": "F1",
+      "note": "feu, bien placé"
+    },
+    {
+      "classe": "piéton",
+      "score": 0.7,
+      "iou": 0.0,
+      "gt": "P1",
+      "note": "fausse alerte sur le trottoir"
+    },
+    {
+      "classe": "piéton",
+      "score": 0.62,
+      "iou": 0.29906276625958533,
+      "gt": "P2",
+      "note": "piéton 2, boîte trop décalée"
+    },
+    {
+      "classe": "voiture",
+      "score": 0.4,
+      "iou": 0.6281156530408774,
+      "gt": "V1",
+      "note": "doublon de la voiture 1"
+    }
+  ],
+  "ap50_per_class": {
+    "voiture": 1.0,
+    "piéton": 0.6633663366336634,
+    "feu": 1.0
+  },
+  "map50": 0.8877887788778879,
+  "map_coco": 0.5227722772277228,
+  "map_per_threshold": {
+    "0.50": 0.8877887788778879,
+    "0.55": 0.8877887788778879,
+    "0.60": 0.8877887788778879,
+    "0.65": 0.8877887788778879,
+    "0.70": 0.6138613861386139,
+    "0.75": 0.6138613861386139,
+    "0.80": 0.28052805280528054,
+    "0.85": 0.16831683168316833,
+    "0.90": 0.0,
+    "0.95": 0.0
+  },
+  "pr_pieton": {
+    "precision": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.5
+    ],
+    "recall": [
+      0.3333333333333333,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "scores": [
+      0.88,
+      0.8,
+      0.7,
+      0.62
+    ]
+  }
+}

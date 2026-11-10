@@ -1,0 +1,68 @@
+{
+  "pixel_accuracy": 0.95979296875,
+  "class_share": {
+    "ciel": 0.48278515625,
+    "trottoir": 0.113984375,
+    "route": 0.2688203125,
+    "voiture": 0.1061796875,
+    "piéton": 0.01923046875,
+    "feu": 0.009
+  },
+  "iou_per_class": {
+    "ciel": 0.993880373771652,
+    "trottoir": 0.8443374060150376,
+    "route": 0.8921212473480775,
+    "voiture": 0.8535451862086291,
+    "piéton": 0.6561040016250254,
+    "feu": 0.6770833333333334
+  },
+  "dice_per_class": {
+    "ciel": 0.9969307956942411,
+    "trottoir": 0.9155997197273712,
+    "route": 0.9429852855343593,
+    "voiture": 0.9209866504031985,
+    "piéton": 0.7923463755672758,
+    "feu": 0.8074534161490683
+  },
+  "miou": 0.819511924716959,
+  "mdice": 0.896050373845919,
+  "instance": [
+    {
+      "prediction": "voiture 1",
+      "score": 0.97,
+      "mask_iou": 0.8474622770919067,
+      "gt": "V1"
+    },
+    {
+      "prediction": "voiture 2",
+      "score": 0.93,
+      "mask_iou": 0.8586818023861925,
+      "gt": "V2"
+    },
+    {
+      "prediction": "piétons 1+2 fusionnés",
+      "score": 0.85,
+      "mask_iou": 0.4229681978798587,
+      "gt": "P2"
+    },
+    {
+      "prediction": "piéton 3 incomplet",
+      "score": 0.8,
+      "mask_iou": 0.5349544072948328,
+      "gt": "P3"
+    },
+    {
+      "prediction": "feu sans poteau",
+      "score": 0.72,
+      "mask_iou": 0.6770833333333334,
+      "gt": "F1"
+    }
+  ],
+  "mask_ap50_per_class": {
+    "voiture": 1.0,
+    "piéton": 0.16831683168316833,
+    "feu": 1.0
+  },
+  "mask_map50": 0.7227722772277229,
+  "mask_map_coco": 0.3806930693069307
+}
